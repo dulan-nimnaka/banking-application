@@ -2,6 +2,7 @@ package model;
 
 import exceptions.InsufficientFundsException;
 
+// Subclass demonstrating inheritance and method overriding
 public class SavingsAccount extends BankAccount {
     private double interestRate; // Interest rate for the savings account e.g., 0.05 = 5%
 
